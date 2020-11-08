@@ -33,6 +33,7 @@ class dataDetail : AppCompatActivity() {
 
     )
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTitle("UPN Veteran Jawa Timur")
         super.onCreate(savedInstanceState)
         setContentView(R.layout.daftar_detail)
 
@@ -280,7 +281,7 @@ class dataDetail : AppCompatActivity() {
                     // Towebview()
                 }
             }
-            if (namafak=="Annisa Raudya Wibowo") {
+            if (namafak=="Brahmantya Adi S") {
                 setTitle(namafak)
 
                 imageButton3.visibility = View.GONE

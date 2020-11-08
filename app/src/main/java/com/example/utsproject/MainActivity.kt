@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        setTitle("UPNV Jawa Timur App")
+        setTitle("UPN Veteran Jawa Timur")
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val data = createdataupn()
@@ -133,28 +133,24 @@ class MainActivity : AppCompatActivity() {
                     "3.     Ilmu Komunikasi\n"+
                     "4.     Hubungan International")
         )
-        rvlist.add(data_upn(R.drawable.fotogue,
-            "Annisa Raudya Wibowo",
+        rvlist.add(data_upn(R.drawable.fotoelek,
+            "Brahmantya Adi Saputra",
             "NAMA       \n" +
-                    "Annisa Raudya Wibowo\n" +
+                    "Brahmantya Adi Saputra\n" +
                     "TTL     \n" +
-                    "Malang, 01 Desember 1998\n" +
+                    "Surabaya, 28 agustus 2000\n" +
                     "ALAMAT     \n" +
-                    "Taman Pinang Indah B5 no.2 Sidoarjo\n" +
+                    "jl.lebak rejo utara VII 50a\n" +
                     "EMAIL  \n" +
-                    "annisa.raudya98@gmail.com\n" +
+                    "Bram28agustus2000@gmail.com\n" +
                     "PENDIDIKAN \n" +
-                    "SDIT Al Fatih     \n" +
-                    "SMP Citra Islamic   (2011-2014)\n" +
-                    "SMAN 2 SIdoarjo     (2014-2017)\n" +
-                    "Fakultas Ilmu Komputer UPN V Jatim\n" +
+                    "SDN Rangkah VI Surabaya     \n" +
+                    "SMPN 37 Surabaya\n" +
+                    "SMKN 1 Surabaya \n" +
+                    "Fakultas Ilmu Komputer UPN Veteran Jawa timur\n" +
                     "PENGHARGAAN \n" +
-                    "Medali Emas POPDA BANTEN CabOr Bola Basket  2014\n" +
-                    "Juara Favorit Duta Peduli AIDS Sidoarjo     2015\n" +
-                    "Juara II Lomba Cipta Lagu                   2016\n" +
-                    "Peringkat III FLS2N Sidoarjo                2016\n" +
-                    "Penerima Beasiswa Bank Indonesia            2019\n","https://github.com/annisawibowo",
-            "")
+                    "Juara 1 lomba film se jawa bali\n","https://github.com/brahmantya",
+            "https://github.com/brahmantya")
         )
 
         return rvlist
